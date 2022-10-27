@@ -1,7 +1,7 @@
 services:
   hello-world:
     build:
-      context: https://github.com/greenfrontend/hello-world/tree/feature/improve_home_page
+      context: https://github.com/greenfrontend/hello-world/tree/improve
       dockerfile: /Dockerfile
     environment:
       KEY: VALUE
