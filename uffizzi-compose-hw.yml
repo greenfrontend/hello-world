@@ -1,7 +1,7 @@
 services:
   hello-world:
     build:
-      context: https://github.com/greenfrontend/hello-world
+      context: https://github.com/greenfrontend/hello-world#feature/change_font
       dockerfile: /Dockerfile
     environment:
       KEY: VALUE
