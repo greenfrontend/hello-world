@@ -4,7 +4,7 @@ services:
       context: https://github.com/greenfrontend/hello-world#feature/change_font
       dockerfile: /Dockerfile
     environment:
-      KEY: VALUE
+      KEY2: VALUE2
 
 x-uffizzi:
   ingress:
