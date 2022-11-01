@@ -5,6 +5,20 @@ services:
       dockerfile: /Dockerfile
     environment:
       KEY: VALUE
+    deploy:
+      resources:
+        limits:
+          memory: 250M
+  another-container:
+    build:
+      context: https://github.com/greenfrontend/hello-world
+      dockerfile: /Dockerfile
+    environment:
+      KEY: VALUE
+    deploy:
+      resources:
+        limits:
+          memory: 250M
 
 x-uffizzi:
   ingress:
